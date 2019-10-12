@@ -1,0 +1,251 @@
+.similar-products-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.similar-products-list > li {
+  flex: 0 0 calc(100% / 4 - 20px);
+}
+
+.search {
+  padding: 45px 0;
+}
+
+.search__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.search__item {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.search__item__image {
+  flex: 0 0 30%;
+}
+
+.search__item__text {
+  flex: 0 0 70%;
+  padding: 25px;
+}
+
+.search__item__image img {
+  display: block;
+  margin: 0 auto;
+}
+
+.search__item__text__title {
+  font-size: 29px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.search__item__text__price {
+  color: #cfa66f;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.search__item__text__description {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.shop_table .mobile-content .remove {
+  width: 18px !important;
+}
+
+.valid-feedback {
+  color: #dc3545;
+}
+
+.is-invalid {
+  border-color: #dc3545 !important;
+}
+
+.site-logo {
+  width: 154px;
+  height: 55px;
+}
+
+.elementor-1915 .elementor-element.elementor-element-f119747:not(.elementor-motion-effects-element-type-background),
+.elementor-1915 .elementor-element.elementor-element-f119747 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+  background-image: url(/images/para-1.jpg?d055b36304252d27e48f868fd3c28d8f);
+}
+
+.woocommerce-Price-amount {
+  font-weight: 700 !important;
+}
+
+.cafe-slider-wrapper {
+  display: none;
+}
+
+.mobile-basket {
+  padding-right: 20px;
+  padding-left: 20px;
+  color: #000;
+  position: relative;
+}
+
+.mobile-basket .element-cart-count {
+  position: absolute;
+  top: -10px;
+  right: -16px;
+  color: #fff;
+  background-color: #cfa66f;
+  border-radius: 50%;
+  font-size: 11px;
+  width: 17px;
+  height: 17px;
+}
+
+.cafe-title {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background: #cfa66f;
+}
+
+.woocommerce-breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.woocommerce .wrap-breadcrumb .woocommerce-breadcrumb {
+  height: auto;
+}
+
+.woocommerce ul.products li.product .button {
+  color: #fff;
+  background: #cfa66f;
+}
+
+.wrap-product-loop-buttons a.button[title]::before,
+.wrap-product-loop-buttons a[title].added_to_cart::before {
+  visibility: visible;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 1;
+}
+
+.wrap-breadcrumb {
+  padding: 15px 0;
+}
+
+.socials-dropdown {
+  position: fixed;
+  bottom: 7%;
+  right: 7%;
+  z-index: 1000;
+}
+
+.socials-dropdown i {
+  font-size: 42px;
+  color: #000;
+}
+
+.socials-dropdown i:hover {
+  color: #cfa66f !important;
+}
+
+.socials-dropdown .socials-dropdown__icon i {
+  color: #fff;
+}
+
+.socials-dropdown .socials-dropdown__icon i:hover {
+  color: #fff !important;
+}
+
+.socials-dropdown__icon {
+  background-color: #000;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.5s;
+}
+
+.socials-dropdown__list {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: -182px;
+  left: 13%;
+  padding: 15px 7px 35px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  z-index: -1;
+  transition: 1.5s;
+}
+
+.socials-dropdown__list__item {
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.socials-dropdown__list__item__tooltip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 15px;
+  background-color: #000;
+  border-radius: 15px;
+  padding: 0 20px;
+  transform: translate(calc(-100% - 17px), 35%);
+  color: #fff;
+}
+
+.socials-dropdown.active .socials-dropdown__list {
+  display: flex;
+}
+
+.socials-dropdown.active .socials-dropdown__icon {
+  background-color: #cfa66f;
+}
+
+.socials-dropdown-wrapper {
+  position: relative;
+}
+
+@media screen and (max-width: 750px) {
+  .elementor-1915 .elementor-element.elementor-element-5b399e1 {
+    margin: 0;
+  }
+
+  .site-logo {
+    width: 95px;
+  }
+
+  .search__item__image {
+    flex: 0 0 100%;
+  }
+
+  .search__item__text {
+    flex: 0 0 100%;
+    padding: 25px;
+  }
+
+  .search__item__text__title,
+  .search__item__text__price {
+    font-size: 18px;
+  }
+
+  .search__item__text__description {
+    font-size: 14px;
+  }
+
+  .search__item {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}
+
